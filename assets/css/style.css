@@ -232,7 +232,7 @@ footer {
 @media screen and (max-width: 1200px){
     #question {
         width: 65%;
-        height: 1200px;
+      /*  height: 1200px; */
         margin: 0 auto;
     }
     #organizing-choice {
@@ -262,5 +262,24 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+    #cover-text {
+        left: 0;
+    }
+    #question {
+        width: 90%;
+        
+        margin: 0 auto;
+    }
+    .left-about-top, .right-about-top {
+        width: inherit;
+    }
+    .left-about-top h2, .right-about-top h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .left-about-top p, .right-about-top {
+        text-align: center;
+        padding: 0 20 px;
     }
 }
