@@ -1,3 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100; 
+    color: rgb(102, 100, 100);
+
+}
+
+/* headings plus logo */
+
+h1,h2 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(0, 78, 0);
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+
+}
+
+/* Navigation links */  
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right; 
+    list-style-type: none;
+    margin-right: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    border-bottom: 1px solid rgb(24, 24, 134);
+}
+.active {
+    border-bottom: 1px solid green;
+}
+
+/* Background image + logo*/
+
+#shelf-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative; 
+
+}
+#cover-text, cover-text h2 {
+    color:black; 
+
+}
+#color-shelf {
+    height: 600px;
+    width: 100%;
+    background: url("../images/Rainbow-bookshelves-in-soft-tones-56533-870x520.jpeg") no-repeat center center;
+    background-size: cover;
+    animation-name: shelf-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*Image animation*/
+@keyframes shelf-zoom {
+    from{
+        transform: scale (1);
+    }
+    to{
+        transform: scale (1.1);
+    }
+}
+
+#cover-text{
+    font-size: 130%;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px; 
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(33, 33, 102, .7)
+
+    bottom: 30px;
+    right: 150px ;
+
+    position: absolute;
+}
+/*organizing choice*/
+
+#organizing-choice {
+    height: 600px;
+    margin: 0 auto;
+
+}
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+#center {
+    width: 33%;
+    margin: 0 auto;
+}
+hr {
+    border-top: 1px solid rgb(24, 24, 134);
+    width: 100%; 
+    margin: 5px;
+}
+
+.left-about-top {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    position: relative;
+}
+.right-about-top {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    position: relative;
+}
+.right-about-top h2 {
+    text-align: right;
+}
+.right-about-top p {
+    text-align: right;
+}
+#question {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(136, 133, 133);
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#circle-container-bg {
+    height: 100%;
+    border-radius: 50%;
+    background: url("../images/pearly-life.jpeg") no-repeat
+}
+/*table content*/
+#organize{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#schedule {
+    font-family: 'Raleway', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+}
+#schedule th, #schedule td {
+    border: 1px solid rgb(97, 96, 96);
+    padding: 8px;
+}
+#schedule tr:hover {
+    background-color: darkgray;
+}
+#schedule th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #095036;
+    color: white;
+}
+#schedule-heading{
+    text-transform: uppercase;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+/*footer containment*/
+footer {
+    height: 150px;
+}
+.social-media {
+    text-align: center;
+}
+.social-media > li {
+    display: inline;
+}
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: rgb(0, 78, 0);
+}
+/*media queries*/
+
+/* For larger to medium screens size from 1200px wide and down*/
+@media screen and (max-width: 1200px){
+    #question {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #organizing-choice {
+        padding: 30px 0;
+        margin: 0;
+    }
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    #center {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    hr {
+        display: none;
+    }
 }
