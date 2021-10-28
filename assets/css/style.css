@@ -9,17 +9,22 @@
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
-  color: rgb(102, 100, 100);
+  color: #154734;
+  margin: 20px;
 }
 
-header {
-  background-color: #c5e1a5;
-  height: 75px;
-}
-
+header,
 footer {
   background-color: #c5e1a5;
-  height: 75px;
+  height: 100px;
+}
+
+p {
+  margin: 20px;
+}
+
+iframe {
+  margin: 0 auto;
 }
 
 /* headings plus logo */
@@ -30,6 +35,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #154734;
+  margin: 0 auto;
 }
 
 #logo {
@@ -85,11 +91,11 @@ h2 {
 }
 
 #color-shelf {
-  height: 600px;
+  height: 550px;
   width: 100%;
-  background: url("../images/Rainbow-bookshelves-in-soft-tones-56533-870x520.jpeg")
-    no-repeat center center;
+  background: url("../images/shelf2.jpg") no-repeat center center;
   background-size: contain;
+  margin: 10px;
   /* This code dosen't do anything.  */
   /* animation-name: shelf-zoom;
     animation-duration: 5s;
@@ -132,6 +138,7 @@ h2 {
 #organizing-choice {
   height: 600px;
   margin: 0 auto;
+  background-color: f6faf1;
 }
 
 #left-about {
@@ -210,6 +217,7 @@ hr {
 #organize {
   font-family: "Raleway", sans-serif;
   text-align: center;
+  margin: 40px;
 }
 
 #schedule {
@@ -242,11 +250,12 @@ hr {
   width: 75%;
   margin: 0 auto;
 }
-
-/*footer containment*/
-footer {
-  height: 150px;
+.schedule-info {
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
 }
+/*footer containment*/
 
 .social-media {
   text-align: center;
@@ -257,9 +266,9 @@ footer {
 }
 
 .social-media i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
+  font-size: 30px;
+  margin: 10px;
+  padding: 30px;
   color: #154734;
 }
 
@@ -340,11 +349,12 @@ input[type="text"],
 select,
 textarea {
   width: 100%;
-  padding: 12px;
+  padding: 15px;
   border: 5px solid #ccc;
-  border-radius: 4px;
+  border-radius: 10px;
   box-sizing: border-box;
   resize: Vertical;
+  margin-bottom: 20px;
 }
 
 input[type="submit"] {
