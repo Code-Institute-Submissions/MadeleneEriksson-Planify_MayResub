@@ -30,9 +30,22 @@ to stay motivated.
 * Contact form 
 A way for the users to connect with me by filling out a form if there are any questions. 
 
-Specifications 
+- Specifications - 
 * An alt text is not added due to the fact that the website only contains decorative images. 
 * The image in the section "why organize" is only visable on browsers above 600px. 
+
+-Bugs - 
+* When submitting the form it does not connect to an URL
+
+- Deployment - 
+
+
+
+- Validator testing - 
+Using lighthouse the webpage scored 100 in accessability 
+
+
+
 
 
 
