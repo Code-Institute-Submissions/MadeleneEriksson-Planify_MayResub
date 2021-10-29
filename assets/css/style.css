@@ -34,7 +34,6 @@ h2 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #154734;
   margin: 0 auto;
 }
 
@@ -42,6 +41,7 @@ h2 {
   float: left;
   font-size: 280%;
   margin-left: 30px;
+  color: #154734;
 }
 
 /* Navigation links */
@@ -85,76 +85,43 @@ h2 {
   position: relative;
 }
 
-#cover-text,
-#cover-text h2 {
-  color: black;
-}
-
 #color-shelf {
   height: 550px;
   width: 100%;
   background: url("../images/shelf2.jpg") no-repeat center center;
   background-size: contain;
   margin: 10px;
-  /* This code dosen't do anything.  */
-  /* animation-name: shelf-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
 }
-
-/*Image animation*/
-@keyframes shelf-zoom {
-  from {
-    transform: scale (1);
-  }
-
-  to {
-    transform: scale (1.1);
-  }
-}
-
-#cover-text {
-  font-size: 130%;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-
-  width: 300px;
-  height: 200px;
-
-  padding-top: 40px;
-  padding-left: 10px;
-
-  background-color: rgba(33, 33, 102, 0.7);
-
-  bottom: 30px;
-  right: 150px;
-
-  position: absolute;
-}
-
 /*organizing choice*/
 
-#organizing-choice {
-  height: 600px;
+#why-organize {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
   margin: 0 auto;
-  background-color: f6faf1;
+  background-color: #f6faf1;
+  width: 100%;
 }
 
 #left-about {
+  display: inline-grid;
+  grid-column: 1;
+  grid-row: 2;
   padding-top: 30px;
-  width: 33%;
   float: left;
 }
 
 #right-about {
   padding-top: 30px;
-  width: 33%;
+  grid-row: 2;
+  grid-column: 3;
   float: right;
 }
 
-#center {
-  width: 33%;
+#center-about {
+  display: inline-grid;
+  grid-column: 2;
+  grid-row: 2;
   margin: 0 auto;
 }
 
@@ -191,6 +158,8 @@ hr {
 }
 
 #question {
+  grid-row: 1;
+  grid-column: 1 / span 3;
   text-align: center;
   margin: 40px 0;
   font-size: 280%;
@@ -218,6 +187,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-align: center;
   margin: 40px;
+  height: auto;
+  background-color: #eaf3de;
 }
 
 #schedule {
@@ -274,40 +245,54 @@ hr {
 
 /*media queries*/
 
-/* For larger to medium screens size from 1200px wide and down*/
-@media screen and (max-width: 1200px) {
-  #question {
-    width: 65%;
-    /*  height: 1200px; */
-    margin: 0 auto;
-  }
-
-  #organizing-choice {
-    padding: 30px 0;
-    margin: 0;
-  }
-
-  #left-about,
-  #right-about {
-    width: 100%;
+/*Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px) {
+  #menu {
+    clear: left;
     float: left;
-    padding: 0;
-  }
-
-  #center {
-    clear: both;
+    margin-left: 30px;
+    margin-bottom: 20px;
     width: 100%;
-    float: left;
-    padding: 0;
+    line-height: 10px;
+    font-size: smaller;
+    letter-spacing: 2px;
   }
-
-  hr {
+  #center-about {
     display: none;
   }
 }
 
-/*For medium screen sizes from 950px wide and down*/
-@media screen and (max-width: 950px) {
+/*Small devices (portrait tablets and large phones, 600px and up)*/
+@media only screen and (min-width: 600px) {
+  #menu {
+    line-height: 10px;
+    font-size: smaller;
+    letter-spacing: 2px;
+  }
+  #center-about {
+    display: none;
+  }
+}
+/*medium devices (landscape tablets, 768px and up*/
+@media only screen and (min-width: 768px) {
+  #menu {
+    clear: left;
+  }
+  #cover-text {
+    left: 0;
+  }
+  #organize {
+    height: 50%;
+  }
+  #p,
+  #h1,
+  #h2 {
+    width: 33%;
+  }
+}
+
+/*For large devices (laptops/desktops, 992px and up*/
+@media screen and (min-width: 992px) {
   #menu {
     clear: left;
     float: left;
@@ -319,13 +304,6 @@ hr {
   #cover-text {
     left: 0;
   }
-
-  #question {
-    width: 90%;
-
-    margin: 0 auto;
-  }
-
   .left-about-top,
   .right-about-top {
     width: inherit;
@@ -340,7 +318,14 @@ hr {
   .left-about-top p,
   .right-about-top {
     text-align: center;
-    padding: 0 20 px;
+    padding: 0 20px;
+  }
+}
+
+/* For  extra large devices (large laptops and desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
+  hr {
+    display: none;
   }
 }
 
