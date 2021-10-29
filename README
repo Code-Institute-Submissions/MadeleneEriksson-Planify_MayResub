@@ -15,7 +15,7 @@ Site owners goal:
 * To teach users that being organized don’t have to be hard, it can be applied 
 on small things in life such as big. 
 
-Features: 
+- Features - 
 * Why organize?  
 The following text highlights four different benefits which are achieved when maintaining an organized life.
 
@@ -29,6 +29,23 @@ to stay motivated.
 
 * Contact form 
 A way for the users to connect with me by filling out a form if there are any questions. 
+
+- Specifications - 
+* An alt text is not added due to the fact that the website only contains decorative images. 
+* The image in the section "why organize" is only visable on browsers above 600px. 
+
+-Bugs - 
+* When submitting the form it does not connect to an URL
+
+- Deployment - 
+
+
+
+- Validator testing - 
+Using lighthouse the webpage scored 100 in accessability 
+
+
+
 
 Specifications 
 * An alt text is not added due to the fact that the website only contains decorative images. 
