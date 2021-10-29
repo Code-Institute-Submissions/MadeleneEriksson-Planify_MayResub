@@ -2,29 +2,37 @@ README
 
 Title - Planify 
 
-- Purpose - 
-The purpose with the website is to target different users 
+Purpose: 
+* The purpose with the website is to target different users 
 who are interested in learning more about different ways 
 to organize their life. This is done by explaining why
 you should be organized and what types of benefits it could contribute to. 
 
-- External user goal - 
-The users are interested in how they can organize their life in a better way. 
+External user goal: 
+* The users are interested in how they can organize their life in a better way. 
 
-- Site owners goal - 
-To teach users that being organized don’t have to be hard, it can be applied 
+Site owners goal: 
+* To teach users that being organized don’t have to be hard, it can be applied 
 on small things in life such as big. 
 
-- Features - 
-* Supporting information 
+Features: 
+* Why organize?  
+The following text highlights four different benefits which are achieved when maintaining an organized life.
 
-<
-
+* Exemple on how to organize a table 
+This gives the user an idea on how to make an own schedule, 
+how it should be visualized to give a bigger overview on what should be done 
 
 * Video from a motivational speaker 
-* An table which can be viewed as inspiration when making their own planning-tool 
-* A way for the users to connect with me by filling out a form if there are any questions. 
+If the tab inspiration is clicked, an video from youtube appear which gives the user a pep-talk on how 
+to stay motivated. 
 
+* Contact form 
+A way for the users to connect with me by filling out a form if there are any questions. 
+
+Specifications 
+* An alt text is not added due to the fact that the website only contains decorative images. 
+* The image in the section "why organize" is only visable on browsers above 600px. 
 
 
 
