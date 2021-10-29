@@ -269,9 +269,6 @@ hr {
     font-size: smaller;
     letter-spacing: 2px;
   }
-  #center-about {
-    display: none;
-  }
 }
 /*medium devices (landscape tablets, 768px and up*/
 @media only screen and (min-width: 768px) {
