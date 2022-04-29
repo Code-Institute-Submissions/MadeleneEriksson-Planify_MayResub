@@ -278,6 +278,7 @@ hr {
   #center-about {
     display: none;
   }
+
 }
 
 /*Small devices (portrait tablets and large phones, 600px and up)*/
@@ -319,36 +320,44 @@ hr {
   #cover-text {
     left: 0;
   }
-  .left-about-top,
-  .right-about-top,
-  .left-about-bottom,
-  .right-about-bottom {
-    width: inherit;
-  }
 
-  .left-about-top h2,
-  .right-about-top h2,
-  .left-about-bottom h2,
-  .right-about-bottom h2
-   {
-    width: 100%;
-    text-align: center;
-  }
-
-  .left-about-top p,
-  .right-about-top p,
-  .left-about-bottom p,
-  .right-about-bottom p {
-    text-align: center;
-    padding: 0 20px;
+}
+@media only screen and (min-width: 600px) {
+  #menu {
+    line-height: 10px;
+    font-size: smaller;
+    letter-spacing: 2px;
   }
 }
-
 /* For  extra large devices (large laptops and desktops, 1200px and up)*/
 @media screen and (min-width: 1200px) {
   hr {
     display: none;
   }
+}
+
+.left-about-top,
+.right-about-top,
+.left-about-bottom,
+.right-about-bottom {
+  width: inherit;
+}
+
+.left-about-top h2,
+.right-about-top h2,
+.left-about-bottom h2,
+.right-about-bottom h2
+ {
+  width: 100%;
+  text-align: center;
+}
+
+.left-about-top p,
+.right-about-top p,
+.left-about-bottom p,
+.right-about-bottom p {
+  text-align: center;
+  padding: 0 20px;
 }
 
 /*Style and inputs on contact-form*/
