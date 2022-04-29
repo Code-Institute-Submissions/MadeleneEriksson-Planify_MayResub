@@ -10,13 +10,11 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
   color: #11231c;
-  margin: 20px;
 }
 
 header,
 footer {
   background-color: #E0EDD6;
-  height: 100px;
 }
 
 p {
@@ -40,18 +38,18 @@ h2 {
   margin: 0 auto;
 }
 
-#logo {
-  float: left;
-  font-size: 280%;
+#logo a{
+  font-size: 50px;
   margin-left: 30px;
   color: #154734;
+  text-decoration: none;
 }
 
 /* Navigation links */
 
 #menu {
-  font-size: 110%;
   letter-spacing: 2px;
+  display: flex; 
 }
 
 #menu,
@@ -60,7 +58,6 @@ h2 {
 }
 
 #menu li {
-  float: right;
   list-style-type: none;
   margin-right: 30px;
 }
@@ -266,15 +263,9 @@ hr {
 /*Extra small devices (phones, 600px and down)*/
 @media only screen and (max-width: 600px) {
   #menu {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    width: 100%;
-    line-height: 10px;
-    font-size: smaller;
-    letter-spacing: 2px;
+  flex-direction: column;
   }
+
   #center-about {
     display: none;
   }
@@ -312,9 +303,13 @@ hr {
   #menu {
     clear: left;
     float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
+    /* margin-left: 30px;
+    margin-bottom: 20px; */
+    width: 100%;
+    line-height: 10px;
+    font-size: smaller;
+    letter-spacing: 2px;
+  
   }
 
   #cover-text {
