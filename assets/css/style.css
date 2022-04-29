@@ -106,14 +106,6 @@ h2 {
   width: 100%;
 }
 
-#left-about {
-
-}
-
-#right-about {
-
-}
-
 #center-about {
   display: inline-grid;
   grid-column: 2;
