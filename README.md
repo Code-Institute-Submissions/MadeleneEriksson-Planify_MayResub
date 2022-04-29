@@ -1,4 +1,4 @@
-#Planify 
+# Planify 
 
 Planify is the website that hopes to help people stay motivated to be their best self. 
 The purpose with the website is to target different users who are interested in learning more about different ways to organize their life. This is done by explaining why
