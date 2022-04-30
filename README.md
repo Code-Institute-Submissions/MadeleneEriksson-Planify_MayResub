@@ -32,12 +32,16 @@ Planify strive to be as useful tool with a couple of different features to help 
 * This section includes links to relevant social media sites for Planify. The links will open up in a new tab to allow the user an easy navigation. 
 * This is of great value for both the users and the site owners because it encourages them to keep connect with each other via social media.
 
+![footer](assets/images/footer.png)
+
 #### Inspiration page 
 * This page provides the user to look at a short clip from motivation speaker Jordan Peterson. 
 * This section allows the user to interact and press play and pause on their own command. 
 
 #### Contact page 
 * This page allows the user to send any questions or inputs regarding the website. They can also choose their preferred language between Swedish, Norweigan and English. 
+
+![contact-page](assets/images/contact-page.png)
 
 ### Features left to implement 
 #### Quiz 
