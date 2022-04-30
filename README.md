@@ -14,12 +14,16 @@ Planify strive to be as useful tool with a couple of different features to help 
 * Users will find a navigaton bar on all three pages, the full responsive navigaton bar includes links to the Home page, Inspiration and feedback and is identical on each page to allow for an easy navigaton 
 * The contribution of this features is the ability for the user to navigate through the page without having to access the last page using the “back” button. 
 
+![nav-bar](assets/images/nav.bar.png)
+
 #### The landing page image 
 * Consists of a image which hopefully will intrigue the user to see organizing as a beautiful thing. 
 
 #### Why stay organized? - Section 
 * The aim with the section is to allow the user to see the benefits of an organized life and what it can contribute in everyday life. 
 * The user can read about four different health benefits that an organized life and hopefully find it valuable to start organizing themselves. 
+
+![why-organized](assets/images/why.organized.png)
 
 #### Example on how to organize - Section 
 * This section will give the user a visualization of how a schedule can look and aim to give the user an overview on how it could be done. It also contains a responsive design feature which gives the user a option to interact with the schedule. 
