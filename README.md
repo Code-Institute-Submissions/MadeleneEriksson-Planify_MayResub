@@ -66,6 +66,7 @@ Planify strive to be as useful tool with a couple of different features to help 
 ### Credits 
 #### Content 
 * The icons in the footer were taken from [Font awesome](https://fontawesome.com/) 
+* As a first project I think that being able to do the "Love Running"-project before have helped me a lot. 
 #### Media 
 * The photos used on the home page are from [Google](https://google.com) 
 * The video under the inspiration page was found on [Youtube](https://youtube.com) 
