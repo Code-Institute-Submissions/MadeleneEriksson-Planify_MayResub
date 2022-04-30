@@ -40,7 +40,7 @@ h2 {
 
 #logo a{
   font-size: 50px;
-  margin-left: 30px;
+  margin-bottom: 20px; 
   color: #154734;
   text-decoration: none;
 }
@@ -52,19 +52,16 @@ h2 {
   display: flex; 
 }
 
-#menu,
-#logo {
-  line-height: 75px;
-}
-
 #menu li {
   list-style-type: none;
   margin-right: 30px;
+  padding: 10px; 
 }
 
 #menu a {
   text-decoration: none;
   color: #154734;
+
 }
 
 #menu a:hover {
@@ -278,6 +275,9 @@ hr {
     line-height: 10px;
     font-size: smaller;
     letter-spacing: 2px;
+  }
+  #logo a {
+    font-size: 20px; 
   }
 }
 /*medium devices (landscape tablets, 768px and up*/
